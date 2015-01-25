@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Point3D", "01.Point3D\01.Point3D.csproj", "{6130786C-923F-4025-B1D0-D50AF742F57D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.DistanceCalculator", "02.DistanceCalculator\02.DistanceCalculator.csproj", "{F03261CF-B199-4F19-BE2D-4F52B1ED8CD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Path3D", "03.Path3D\03.Path3D.csproj", "{EA6C0DE4-00F7-4505-9575-D0843F1930CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6130786C-923F-4025-B1D0-D50AF742F57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6130786C-923F-4025-B1D0-D50AF742F57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6130786C-923F-4025-B1D0-D50AF742F57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6130786C-923F-4025-B1D0-D50AF742F57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03261CF-B199-4F19-BE2D-4F52B1ED8CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03261CF-B199-4F19-BE2D-4F52B1ED8CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03261CF-B199-4F19-BE2D-4F52B1ED8CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03261CF-B199-4F19-BE2D-4F52B1ED8CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA6C0DE4-00F7-4505-9575-D0843F1930CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6C0DE4-00F7-4505-9575-D0843F1930CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6C0DE4-00F7-4505-9575-D0843F1930CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6C0DE4-00F7-4505-9575-D0843F1930CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
