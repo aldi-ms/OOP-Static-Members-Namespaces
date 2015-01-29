@@ -4,7 +4,7 @@ using _01Point3D;
 
 namespace _03.Path3D
 {
-    class Program
+    class PathMain
     {
 
         static void Main()

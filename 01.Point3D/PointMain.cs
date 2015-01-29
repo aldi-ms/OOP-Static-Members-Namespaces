@@ -2,7 +2,7 @@
 
 namespace _01Point3D
 {
-    class Program
+    class PointMain
     {
         static void Main()
         {

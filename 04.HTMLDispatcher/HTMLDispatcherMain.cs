@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _04.HTMLDispatcher
 {
-    class Program
+    class HTMLDispatcherMain
     {
         public static void Main()
         {
