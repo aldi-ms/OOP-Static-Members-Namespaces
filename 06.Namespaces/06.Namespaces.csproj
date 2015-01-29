@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>a5265033-6bac-4f55-ab53-5fc3073a3bc9</ProjectGuid>
+    <ProjectGuid>{1B7C336B-0E8D-42EF-B8FB-AC3D84E1E26C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_06.Namespaces</RootNamespace>
-    <AssemblyName>_06.Namespaces</AssemblyName>
+    <RootNamespace>_06.Geometry</RootNamespace>
+    <AssemblyName>06.Namespaces</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Geometry2D\Circle.cs" />
+    <Compile Include="Geometry2D\DistanceCalculator2D.cs" />
+    <Compile Include="Geometry2D\Ellipse.cs" />
+    <Compile Include="Geometry2D\Figure2D.cs" />
+    <Compile Include="Geometry2D\Point2D.cs" />
+    <Compile Include="Geometry2D\Polygon.cs" />
+    <Compile Include="Geometry2D\Rectangle.cs" />
+    <Compile Include="Geometry2D\Square.cs" />
+    <Compile Include="Geometry3D\DistanceCalculator3D.cs" />
+    <Compile Include="Geometry3D\Path3D.cs" />
+    <Compile Include="Geometry3D\Point3D.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Storage\GeometryBinaryStorage.cs" />
+    <Compile Include="Storage\GeometrySVGStorage.cs" />
+    <Compile Include="Storage\GeometryXMLStorage.cs" />
+    <Compile Include="UI\Screen2D.cs" />
+    <Compile Include="UI\Screen3D.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
